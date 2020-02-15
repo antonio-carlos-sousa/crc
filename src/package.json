@@ -1,0 +1,34 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Code Review Coop",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "nodemon": "*",
+    "request": "*"
+  },
+  "scripts": {
+    "startdev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-carlos-sousa/crc.git"
+  },
+  "keywords": [
+    "Code",
+    "Review",
+    "Coop",
+    "Polling"
+  ],
+  "author": "António Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio-carlos-sousa/crc/issues"
+  },
+  "homepage": "https://github.com/antonio-carlos-sousa/crc#readme"
+}
